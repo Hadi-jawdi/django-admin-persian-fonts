@@ -1,18 +1,20 @@
 # django-admin-persian-fonts
-django-admin-persian-fonts is a Django app for fast and easy use of Persian fonts in the Django admin panel.
-## Installation
-- Run `pip install django-admin-persian-fonts`
-- Add `admin_persian` to `settings.INSTALLED_APPS` **before** `django.contrib.admin`
-```python
-INSTALLED_APPS = (
-    #...
-    "admin_persian",
-    #...
-    "django.contrib.admin",
-    #...
-)
 
-```
-- Run `python manage.py migrate`
-- Restart your application server
-- Visit http://127.0.0.1:8000/admin/
+**django-admin-persian-fonts** is a lightweight Django application designed to seamlessly integrate Persian fonts into the Django admin interface, enhancing usability for Persian-speaking users.
+
+---
+
+## Features
+
+- Easy integration with Django admin  
+- Supports Persian font rendering out-of-the-box  
+- Minimal setup required
+
+---
+
+## Installation
+
+Install the package via pip:
+
+```bash
+pip install django-admin-persian-fonts
